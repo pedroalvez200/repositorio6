@@ -1,0 +1,15 @@
+nome = input("Digite seu nome: ")
+nota1 = float(input("Digite a nota 1: "))
+nota2 = float(input("Digite a nota 2: "))
+faltas = int(input("Informe quantas faltas você teve: "))
+
+media = (nota1+nota2)/2
+
+if media>=7:
+    if faltas<=3:
+        print("Você está aprovado!")
+    else:
+        print("Infelizmente você reprovou.")
+else:
+    print("Infelizmente você reprovou.")
+    
